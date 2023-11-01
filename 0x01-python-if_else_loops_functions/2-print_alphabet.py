@@ -1,2 +1,4 @@
 #!/usr/bin/python3
-print("abcdefghijklmnopqrstuvwxyz")
+for (str in range(ord('a'), ord('z'))):
+    print(chr(str), end = "")
+print()
