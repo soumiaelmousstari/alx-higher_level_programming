@@ -1,4 +1,5 @@
 #!/usr/bin/python3
 for str in range(ord('a'), ord('z') + 1):
-    if chr(str) not in 'qe':
+    if str != ord('e') and str != ord('q'):
         print("{:c}".format(str), end="")
+print()
