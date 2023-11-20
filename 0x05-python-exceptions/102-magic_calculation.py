@@ -9,4 +9,4 @@ def magic_calculation(a, b):
         except Exception:
             resulta = b + a
             break
-        return (resulta)
+    return (resulta)
