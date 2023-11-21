@@ -4,7 +4,7 @@
 
 class Square:
     """Defines a square."""
-    def init (self, size=0):
+    def __init__(self, size=0):
         """Constructor.
         Args:
             size: Length of a side of the square.
@@ -16,7 +16,7 @@ class Square:
             raise TypeError('size must be an integer')
         if size < 0:
             raise ValueError('size must be >= 0')
-        self._size = size
+        self.__size = size
         def area (self):
             """Area of this square.
             Returns:
