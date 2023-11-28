@@ -4,6 +4,6 @@ Defining an empty class Rectangle
 """
 
 
-class Reactangle:
+class Rectangle:
     """Empty representation of a Rectangle"""
     pass
