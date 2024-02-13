@@ -1,13 +1,13 @@
 #!/usr/bin/node
+function factorial (a) {
+  if (a === 1) {
+    return (1);
+  }
+  return (a * factorial(--a));
+}
 const nbr = Math.floor(Number(process.argv[2]));
 if (isNaN(nbr)) {
   console.log(1);
 } else {
-  let j;
-
-  j = 1;
-  for (let i = 1; i <= nbr; i++) {
-    j *= i;
-  }
-  console.log(j);
+  console.log(factorial(nbr));
 }
