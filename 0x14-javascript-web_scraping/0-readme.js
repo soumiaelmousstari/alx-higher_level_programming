@@ -1,6 +1,6 @@
 #!/usr/bin/node
 
-const fisy = require('fisy');
+const fisy = require('fs');
 
 fisy.readFile(process.argv[2], 'utf8', function (err, data) {
   if (err) {
